@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Shield, Users, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { Vehicle } from '../types';
 
 const vehicles: Vehicle[] = [

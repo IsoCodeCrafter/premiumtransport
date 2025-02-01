@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Calendar, Shield, Star } from 'lucide-react';
+import { ChevronDown, Calendar } from 'lucide-react';
 import { scrollToSection } from '../utils/scroll';
 import toast from 'react-hot-toast';
 

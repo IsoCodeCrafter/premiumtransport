@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Calendar, Clock, Car, User, Phone, Mail } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { sendQuoteEmail } from '../utils/email';
 import type { QuoteFormData } from '../types';
@@ -103,7 +102,6 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    <User className="w-4 h-4 inline-block mr-1" />
                     Ad Soyad
                   </label>
                   <input
@@ -116,7 +114,6 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    <Phone className="w-4 h-4 inline-block mr-1" />
                     Telefon
                   </label>
                   <input
@@ -131,7 +128,6 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <Mail className="w-4 h-4 inline-block mr-1" />
                   E-posta
                 </label>
                 <input
@@ -146,7 +142,6 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
               {/* Araç Seçimi */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <Car className="w-4 h-4 inline-block mr-1" />
                   Araç Seçimi
                 </label>
                 <div className="space-y-2">
@@ -179,7 +174,6 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
               {/* Süre Seçimi */}
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  <Clock className="w-4 h-4 inline-block mr-1" />
                   Süre Seçimi
                 </label>
                 <div className="grid grid-cols-2 gap-4">
