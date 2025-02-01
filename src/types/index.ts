@@ -32,3 +32,11 @@ export interface GalleryImage {
   width: number;
   height: number;
 }
+
+export interface BookingFormData {
+  name: string;
+  email: string;
+  phone: string;
+  vehicleId: string;
+  duration: string;
+}
