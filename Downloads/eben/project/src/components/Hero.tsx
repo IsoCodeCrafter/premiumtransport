@@ -151,5 +151,5 @@ export default function Hero() {
   );
 }
 
-// Projeyi güncellemek için gerekli komutları çalıştırıyorum.
-// npm run build && git add . && git commit -m "Güncellemeler yapıldı" && git push origin main
+// Projeyi güncelleyip deploy ediyorum.
+// git remote set-url origin https://github.com/IsoCodeCrafter/premiumtransport.git && npm run build && git add . && git commit -m "Güncellemeler yapıldı" && git push origin main
